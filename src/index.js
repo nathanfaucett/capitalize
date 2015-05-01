@@ -2,7 +2,10 @@ var reInflect = require("re_inflect"),
     capitalizeString = require("capitalize_string");
 
 
-module.exports = function capitalize(string, allWords) {
+module.exports = capitalize;
+
+
+function capitalize(string, allWords) {
     var parts, i;
 
     if (allWords !== false) {
@@ -17,4 +20,4 @@ module.exports = function capitalize(string, allWords) {
     }
 
     return capitalizeString(string.match(reInflect).join(" "));
-};
+}
