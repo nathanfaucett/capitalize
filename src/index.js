@@ -9,15 +9,15 @@ function capitalize(string, allWords) {
     var parts, i;
 
     if (allWords !== false) {
-        parts = string.match(reInflect),
-            i = parts.length;
+        parts = string.match(reInflect);
+        i = parts.length;
 
         while (i--) {
             parts[i] = capitalizeString(parts[i]);
         }
 
         return parts.join(" ");
+    } else {
+        return capitalizeString(string.match(reInflect).join(" "));
     }
-
-    return capitalizeString(string.match(reInflect).join(" "));
 }
