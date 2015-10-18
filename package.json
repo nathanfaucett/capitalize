@@ -21,7 +21,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "capitalize_string": "nathanfaucett/capitalize_string",
-    "re_inflect": "nathanfaucett/re_inflect"
+    "capitalize_string": "git://github.com/nathanfaucett/capitalize_string.git",
+    "re_inflect": "git://github.com/nathanfaucett/re_inflect.git"
   }
 }
