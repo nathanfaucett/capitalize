@@ -1,5 +1,5 @@
-var reInflect = require("re_inflect"),
-    capitalizeString = require("capitalize_string");
+var reInflect = require("@nathanfaucett/re_inflect"),
+    capitalizeString = require("@nathanfaucett/capitalize_string");
 
 
 module.exports = capitalize;
